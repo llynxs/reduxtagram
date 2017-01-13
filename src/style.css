@@ -1,0 +1,183 @@
+* {
+  box-sizing: border-box;
+}
+body,
+html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  font-family: 'Nunito';
+}
+a {
+  text-decoration: none;
+  color: #00c6fa;
+}
+ul,
+li,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding: 0;
+  margin: 0;
+}
+img {
+  width: 100%;
+  height: 100%;
+}
+.main {
+  padding: 20px;
+  padding-top: 0;
+}
+.main-header {
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.main-header__heading {
+  width: 50%;
+  display: block;
+  margin: 0 auto;
+  font-size: 100px;
+  text-align: center;
+  font-family: 'Pacifico';
+}
+.main-header__heading a {
+  width: 100%;
+}
+.header {
+  text-align: center;
+}
+.header-heading {
+  text-transform: uppercase;
+  text-align: center;
+  font-family: 'Nunito';
+}
+.photo-list {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+  text-align: center;
+}
+.photo-item {
+  display: inline-block;
+  width: calc(25% - 12px);
+  font-size: 16px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  vertical-align: top;
+  box-shadow: 0 0 5px 1px rgba(0,0,0,0.5);
+}
+.photo-item-wrap {
+  position: relative;
+  border-bottom: 1px solid #00c6fa;
+}
+.photo-item-wrap span {
+  padding: 10px;
+  display: block;
+}
+.photo-item-link {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+.photo-item-link img {
+  box-shadow: 0 0 5px 1px rgba(0,0,0,0.5);
+}
+.photo-item-link span {
+  font-family: 'Raleway';
+}
+.photo-likes {
+  display: flex;
+}
+.photo-likes-button {
+  width: 50%;
+  display: inline-block;
+  background: transparent;
+  border-right: 1px solid #00c6fa;
+  border-bottom: 1px solid #00c6fa;
+}
+.photo-likes-button button {
+  border: none;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  font-size: 16px;
+  color: #ffc0cb;
+}
+.photo-likes-button button:hover {
+  cursor: pointer;
+}
+.photo-likes-link {
+  width: 50%;
+  border-bottom: 1px solid #00c6fa;
+}
+.photo-likes-link a {
+  display: inline-block;
+  vertical-align: top;
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+}
+.single {
+  font-size: 0;
+}
+.single .photo-item,
+.single .comments {
+  display: inline-block;
+  vertical-align: top;
+  width: 50%;
+}
+.single .photo-item {
+  margin: 0;
+}
+.single .photo-item-link:hover {
+  cursor: default;
+}
+.single .comments {
+  font-size: 16px;
+  padding-left: 20px;
+}
+.single .comments-list {
+  border-top: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+}
+.single .comments-form {
+  height: 25px;
+}
+.single .comments-form__input {
+  display: inline-block;
+  height: 100%;
+  width: 50%;
+  padding-left: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+.single .comments-form__input:first-child {
+  border-right: none;
+}
+.single .comments-form .comment {
+  font-family: Raleway;
+  font-style: italic;
+}
+.single .comment-item {
+  border-bottom: 1px solid #ccc;
+  padding: 15px 10px 15px 0;
+}
+.single .comment-item__author {
+  font-weight: 900;
+}
+.single .comment-item__comment {
+  font-family: Raleway;
+}
